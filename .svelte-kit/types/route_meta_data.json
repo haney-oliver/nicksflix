@@ -1,0 +1,18 @@
+{
+	"/": [
+		"src/routes/+page.ts"
+	],
+	"/about": [],
+	"/api/posts": [
+		"src/routes/api/posts/+server.ts"
+	],
+	"/categories": [],
+	"/categories/[slug]": [
+		"src/routes/categories/[slug]/+page.ts"
+	],
+	"/posts": [],
+	"/posts/[slug]": [
+		"src/routes/posts/[slug]/+page.ts"
+	],
+	"/sandbox": []
+}
